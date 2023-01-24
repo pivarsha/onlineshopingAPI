@@ -75,3 +75,5 @@ class DetailCart(generics.RetrieveUpdateDestroyAPIView):
     queryset = Cart.objects.all()
     serializer_class=CartSerializer
 
+def form(request):
+    return render(request,"form.html")
