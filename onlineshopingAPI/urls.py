@@ -24,5 +24,4 @@ urlpatterns = [
     path('auth/register/',RegistrationAPIViews.as_view(),name='register'),
     path('auth/login/',TokenObtainPairView.as_view(),name='login'),
     path('auth/refreshtoken/',TokenRefreshView.as_view(),name='refreshtoken'),
-
 ]

@@ -8,7 +8,6 @@ import uuid
 from rest_framework import status,permissions
 
 
-
 # Create your views here.
 
 class RegistrationAPIViews(generics.GenericAPIView):
